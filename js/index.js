@@ -1,6 +1,6 @@
 
 function pomodoroTimer(timeleft) {
-    var forest = new Audio("/sounds/forest.wav")
+    var forest = new Audio("/sounds/forest.mp3")
     var pomodoroDiv = document.getElementById('pomodoro');
     var timer = setInterval(function() {
         if (timeleft <= 0) {
